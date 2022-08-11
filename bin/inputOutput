@@ -1,0 +1,8 @@
+import 'package:dart/helloWorld.dart' as dart;
+import 'dart:io';
+
+void main(List<String> arguments) {
+  print("input password");
+  String? inputText = stdin.readLineSync()!;
+  print("password: $inputText");
+}
