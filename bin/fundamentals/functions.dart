@@ -25,7 +25,7 @@ double averageArrow(num num1, num num2) => (num1 + num2)/2;
 void greetNewUser([String? name, int? age])
 
 // named optional parameters
-void optionalParameters({String? name,int? age}) {}
+void optionalParameters({String? name,int? age})
 
 
 
